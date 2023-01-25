@@ -1,0 +1,8 @@
+<br>
+<div class="container">
+<%= render @post %>
+
+  <p> <%= link_to "Edit this post", edit_post_path %> &nbsp;| 
+  <%= link_to "Back to posts", posts_path %> </p> 
+  <%= button_to "Destroy this post", @post, method: :delete %>
+</div>
